@@ -1,0 +1,175 @@
+{
+  "seed": 18,
+  "parameters": {
+    "input": "/Users/arnavsastry/scotus-pos/data/raw/opinions_deduplicated.jsonl",
+    "out": "/Users/arnavsastry/scotus-pos/data/gold",
+    "seed": 18,
+    "n_opinions": 90,
+    "dev_frac": 0.3,
+    "n_dev": 150,
+    "n_test": 350,
+    "n_agreement": 50,
+    "annotators": "A1,A2,A3",
+    "min_tokens": 5,
+    "max_tokens": 80,
+    "min_sentences": 8
+  },
+  "eligible_opinions": 116,
+  "dropped_opinions": {
+    "short_document_flag": 35,
+    "too_few_usable_sentences": 2
+  },
+  "dev_opinions": [
+    "wol-100009",
+    "wol-100671",
+    "wol-101464",
+    "wol-103857",
+    "wol-105835",
+    "wol-107654",
+    "wol-108713",
+    "wol-111159",
+    "wol-112218",
+    "wol-118179",
+    "wol-145705",
+    "wol-2620739",
+    "wol-2680439",
+    "wol-2812588",
+    "wol-85392",
+    "wol-85530",
+    "wol-86863",
+    "wol-87728",
+    "wol-88370",
+    "wol-88926",
+    "wol-90723",
+    "wol-92918",
+    "wol-95131",
+    "wol-96529",
+    "wol-96602",
+    "wol-97041",
+    "wol-97586"
+  ],
+  "test_opinions": [
+    "wol-102982",
+    "wol-103294",
+    "wol-104163",
+    "wol-104562",
+    "wol-104575",
+    "wol-105245",
+    "wol-105697",
+    "wol-107439",
+    "wol-107576",
+    "wol-107963",
+    "wol-108666",
+    "wol-108714",
+    "wol-109716",
+    "wol-110176",
+    "wol-111162",
+    "wol-112093",
+    "wol-112140",
+    "wol-112288",
+    "wol-116536",
+    "wol-117841",
+    "wol-118152",
+    "wol-1299599",
+    "wol-206187",
+    "wol-214947",
+    "wol-2620860",
+    "wol-2621048",
+    "wol-2644673",
+    "wol-2655499",
+    "wol-801500",
+    "wol-802972",
+    "wol-85416",
+    "wol-85592",
+    "wol-86527",
+    "wol-86640",
+    "wol-86919",
+    "wol-87845",
+    "wol-88077",
+    "wol-88228",
+    "wol-88617",
+    "wol-88880",
+    "wol-89311",
+    "wol-90702",
+    "wol-90812",
+    "wol-91278",
+    "wol-91309",
+    "wol-91426",
+    "wol-92736",
+    "wol-94597",
+    "wol-94919",
+    "wol-95023",
+    "wol-95343",
+    "wol-95542",
+    "wol-95829",
+    "wol-95879",
+    "wol-96360",
+    "wol-96707",
+    "wol-96785",
+    "wol-97590",
+    "wol-97620",
+    "wol-97940",
+    "wol-98381",
+    "wol-99499",
+    "wol-99840"
+  ],
+  "dev": {
+    "sentences": 150,
+    "tokens": 4427,
+    "opinions": 27
+  },
+  "test": {
+    "sentences": 350,
+    "tokens": 10664,
+    "opinions": 63
+  },
+  "agreement": {
+    "sentences": 50,
+    "tokens": 1603,
+    "opinions": 39
+  },
+  "per_annotator_individual": {
+    "A1": {
+      "sentences": 150,
+      "tokens": 4510,
+      "opinions": 79
+    },
+    "A2": {
+      "sentences": 150,
+      "tokens": 4491,
+      "opinions": 81
+    },
+    "A3": {
+      "sentences": 150,
+      "tokens": 4487,
+      "opinions": 83
+    }
+  },
+  "per_annotator_total": {
+    "A1": {
+      "sentences": 200,
+      "tokens": 6113,
+      "opinions": 84
+    },
+    "A2": {
+      "sentences": 200,
+      "tokens": 6094,
+      "opinions": 85
+    },
+    "A3": {
+      "sentences": 200,
+      "tokens": 6090,
+      "opinions": 87
+    }
+  },
+  "years": {
+    "dev": [
+      1823,
+      2007
+    ],
+    "test": [
+      1792,
+      1999
+    ]
+  }
+}
