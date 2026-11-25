@@ -1,0 +1,10 @@
+# Pretrained taggers (Stage 1). Model files are fetched separately:
+#   python -m scotus_pos.download_models
+# The Stanford tagger also needs Java 8 or later on your PATH.
+nltk==3.10.4
+spacy==3.8.18
+spacy-transformers==2.0.3
+flair==0.15.1
+stanza==1.15.1
+torch==2.15.0
+truststore==0.10.5

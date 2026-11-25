@@ -5,3 +5,7 @@ __pycache__/
 
 # OS
 .DS_Store
+
+# Downloaded tagger models (see models/README.md)
+models/*
+!models/README.md
